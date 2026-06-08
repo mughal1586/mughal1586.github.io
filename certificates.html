@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates | Muhammad Sagheer</title>
+  <meta name="description" content="Verified certificates of Muhammad Sagheer — Cybersecurity, Linux, and Programming.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏅</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .cert-page { padding: 1.5rem 0; }
+    .cert-page .section { margin-bottom: 1rem; }
+    .cert-page .section:last-child { margin-bottom: 0; }
+    .cert-list { list-style: none; padding: 0; }
+    .cert-list li {
+      font-size: 0.75rem;
+      color: var(--text);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .cert-list li:last-child { border-bottom: none; }
+    .cert-list a {
+      color: var(--green);
+      text-decoration: none;
+      transition: all var(--transition);
+    }
+    .cert-list a:hover {
+      color: var(--cyan);
+      text-shadow: 0 0 8px rgba(0,229,255,0.2);
+    }
+    .cert-list .bullet { color: var(--green-dim); font-size: 0.6rem; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-decoration: none;
+      margin-bottom: 1rem;
+      transition: all var(--transition);
+    }
+    .back-link:hover { color: var(--green); }
+    .page-title {
+      color: var(--green);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-bottom: 0.3rem;
+    }
+    .page-subtitle {
+      color: var(--muted);
+      font-size: 0.65rem;
+      text-align: center;
+      margin-bottom: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="matrixCanvas"></canvas>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="container">
+
+    <div class="cert-page">
+
+      <a href="index.html" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to Portfolio
+      </a>
+
+      <div class="page-title">/certificates</div>
+      <div class="page-subtitle">Verified credentials & achievements</div>
+
+      <section class="section">
+        <div class="section-corner top-left"></div>
+        <div class="section-corner top-right"></div>
+        <div class="section-corner bottom-left"></div>
+        <div class="section-corner bottom-right"></div>
+        <h2 class="section-title">&#128274; Cybersecurity</h2>
+        <ul class="cert-list">
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/cybersecurity/cybersecurity-essentials.pdf" target="_blank">Cybersecurity Essentials</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/cybersecurity/introduction-to-cybersecurity.pdf" target="_blank">Introduction to Cybersecurity</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/cybersecurity/cybersecurity-careers.pdf" target="_blank">Cybersecurity Careers</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/cybersecurity/ctf-appreciation.pdf" target="_blank">CTF Participation</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/cybersecurity/endpoint-security.pdf" target="_blank">Endpoint Security</a></li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-corner top-left"></div>
+        <div class="section-corner top-right"></div>
+        <div class="section-corner bottom-left"></div>
+        <div class="section-corner bottom-right"></div>
+        <h2 class="section-title">&#128039; Linux</h2>
+        <ul class="cert-list">
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/linux/linux-fundamentals.pdf" target="_blank">Linux Fundamentals</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/linux/lfs101.pdf" target="_blank">LFS101 — Intro to Linux (Linux Foundation)</a></li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="section-corner top-left"></div>
+        <div class="section-corner top-right"></div>
+        <div class="section-corner bottom-left"></div>
+        <div class="section-corner bottom-right"></div>
+        <h2 class="section-title">&#128187; Programming</h2>
+        <ul class="cert-list">
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/programming/cplusplus-essentials.pdf" target="_blank">C++ Essentials</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/programming/cplusplus-advanced.pdf" target="_blank">C++ Advanced</a></li>
+          <li><span class="bullet">&#9656;</span> <a href="https://github.com/mughal1586/Certificates/blob/main/programming/it-essentials.pdf" target="_blank">IT Essentials</a></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <p><span class="dot pulse"></span> Always learning. Always securing.</p>
+      <p class="footer-copy">Muhammad Sagheer &mdash; 2026</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
